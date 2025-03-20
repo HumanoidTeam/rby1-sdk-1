@@ -39,6 +39,8 @@ find_package(gRPC REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(tinyxml2 REQUIRED)
 find_package(nlohmann_json REQUIRED)
+find_package(osqp REQUIRED)
+find_package(OsqpEigen REQUIRED)
 
 ############################################################
 # PROTO
